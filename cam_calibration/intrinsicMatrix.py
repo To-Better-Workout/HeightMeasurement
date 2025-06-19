@@ -119,4 +119,4 @@ np.savez(
     reprojection_error_mm=error_mm
 )
 
-print("📁 결과 저장 완료: intrinsic_calibration_forReport.npz")
+print("📁 결과 저장 완료: intrinsic_calibration.npz")
