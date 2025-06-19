@@ -7,6 +7,7 @@
 5. extrinsic.py 를 실행하여 카메라 정면에 매트를 맞춘 프레임(예: mat-frame.png)에 대해 extrinsix matrix와 재투영 오차 결과를 확인.(reprojection.png처럼 초록색 4개의 점을 manual로 찍음.) 재투영 오차가 0.6 픽셀정도라면 잘 나온 것.
 
 ./HeightMeasurement/
+
 6. seg_height_folder.py 에서 intrinsic, extrinsic 경로를 맞추고 실험 프레임에 대해 실험 진행. DeepLab_v3를 이용하여 segmentation을 진행했으나, segmentation 모델은 변경 가능.
 
 * 자세한 사항은 논문을 참고해 주세요.
